@@ -1,0 +1,6 @@
+<button bindtap="onOpen" data-l="5">打开五级联动</button>
+<button bindtap="onOpen" data-l="4">打开四级联动</button>
+<button bindtap="onOpen" data-l="3">打开三级联动</button>
+<button bindtap="onOpen" data-l="2">打开二级联动</button>
+<button bindtap="onOpen" data-l="1">打开一级联动</button>
+<select-area  wx:if="{{shows}}" id="selectarea" bindcitySelect="oncitySelect" cityList="{{cityList}}"/>

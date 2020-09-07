@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+   
+    "select-area": "../../components/multi-selector/multi-selector"
+  }
+}
